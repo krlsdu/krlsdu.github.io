@@ -100,10 +100,15 @@ img {
   max-width:100%;
 }
 
+.header{
+    border-bottom: 1px solid #E5E5E5;
+}
+
 header {
   width:270px;
   float:left;
   position:fixed;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 header ul {
