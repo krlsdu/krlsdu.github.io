@@ -1,9 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:300;
+}
+
+.titlekrlsdu{
+  font-size: 36px; 
+  font-family: 'Lobster', cursive;
 }
 
 #icons-social li a p {
