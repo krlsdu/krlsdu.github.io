@@ -50,3 +50,7 @@ bower_components
 .bower-registry
 .bower-tmp
 
+### Jekyll ###
+_site/
+.sass-cache/
+
