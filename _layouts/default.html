@@ -7,10 +7,26 @@
 
     {% include navbar.html %}
 
-    {{ content }}
+    <div class="row">
+      <div class="col-sm-3">
+        <h3 class="text-center titlekrlsdu">
+          Krlsdu
+        </h3>
+      </div>
+    </div>
+
+    <div id="conteudo" class="row">
+      <div class="hidden-xs col-sm-3">
+        {% include foto.html %}
+      </div>
+
+      {{ content }}
+      <!-- end-content -->
+    </div>
 
     {% include footer.html %}
 
   </body>
+
 
 </html>
