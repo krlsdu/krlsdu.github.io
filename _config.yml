@@ -12,4 +12,4 @@ github_username:  jekyll
 markdown: kramdown
 gems:
  - jekyll-sitemap
-exclude: [vendor, Gemfile, Guardfile]
+exclude: [vendor, Gemfile, Guardfile, README]
