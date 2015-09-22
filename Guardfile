@@ -26,3 +26,9 @@
 guard 'livereload' do
   watch(%r{(css|js|html)})
 end
+
+ignore /_site/
+
+guard 'jekyll' do
+  watch /.*/
+end
