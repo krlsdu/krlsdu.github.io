@@ -1,6 +1,5 @@
-require 'html/proofer'
+#!/usr/bin/env bash
+set -e # halt script on error
 
-task :test do
-  sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site").run
-end
+bundle exec jekyll build
+rake test
