@@ -13,3 +13,5 @@ markdown: kramdown
 gems:
  - jekyll-sitemap
 exclude: [vendor, Gemfile, Guardfile, README, bower]
+gems:
+  - jekyll-redirect-from
