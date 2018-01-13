@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1
+- 2.4
 
 # branch whitelist, only for GitHub Pages
 branches:
