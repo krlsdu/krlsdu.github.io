@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site
+bundle exec htmlproofer --url-ignore "/https://www.linkedin.com/in/carlos-eduardo-820a5625/" ./_site
