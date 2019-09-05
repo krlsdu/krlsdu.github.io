@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
 
-  <body>
+{% include head.html %}
+
+<body>
 
     {% include navbar.html %}
 
     <div class="row">
-      <div class="col-sm-3">
-        <h1 class="text-center titlekrlsdu">
-          KrLsdu
-        </h1>
-      </div>
+        <div class="col-sm-3">
+            <h1 class="text-center titlekrlsdu">
+                KrLsdu
+            </h1>
+        </div>
     </div>
 
     <div id="conteudo" class="row">
-      <div class="hidden-xs col-sm-3">
-        {% include foto.html %}
-      </div>
+        <div class="hidden-xs col-sm-3">
+            {% include foto.html %}
+        </div>
 
-      {{ content }}
-      <!-- end-content -->
+        {{ content }}
+        <!-- end-content -->
     </div>
 
     {% include footer.html %}
 
-  </body>
+</body>
 
 
 </html>
