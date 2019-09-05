@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'yajl-ruby','~> 1.3.1 '
 group :development do
-  gem 'jekyll', '>= 3.7.4'
+  gem 'jekyll', '>= 3.8.6'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap', '~> 0.8.1'
   gem 'guard'
