@@ -1,28 +1,28 @@
 {
-  "name": "krlsdu.github.io",
-  "version": "0.0.0",
-  "homepage": "https://github.com/krlsdu/krlsdu.github.io",
-  "authors": [
-    "krlsdu <krlsdu@gmail.com>"
-  ],
-  "description": "personal page",
-  "main": "index.html",
-  "keywords": [
-    "personal",
-    "job",
-    "work",
-    "professional"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "fontawesome": "~4.3.0",
-    "bootstrap": "~3.3.5"
-  }
+    "name": "krlsdu.github.io",
+    "version": "0.0.0",
+    "homepage": "https://github.com/krlsdu/krlsdu.github.io",
+    "authors": [
+        "krlsdu <krlsdu@gmail.com>"
+    ],
+    "description": "personal page",
+    "main": "index.html",
+    "keywords": [
+        "personal",
+        "job",
+        "work",
+        "professional"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "fontawesome": "~5.10.2",
+        "bootstrap": "~3.3.5"
+    }
 }
