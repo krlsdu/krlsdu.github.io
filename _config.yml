@@ -10,8 +10,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
  - jekyll-sitemap
 exclude: [vendor, Gemfile, Guardfile, README, bower]
-gems:
+plugins:
   - jekyll-redirect-from
