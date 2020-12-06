@@ -1,55 +1,8 @@
-<div id="cabecalho" class="row header">
-    <nav>
-        <ul class="nav nav-pills pull-right">
-            <li>
-                <a href="https://github.com/krlsdu" rel="nofollow">
-                    <i class="fab fa-github fa-2x">
-                        Github
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="https://gitlab.com/krlsdu" rel="nofollow">
-                    <i class="fab fa-gitlab fa-2x">
-                        Gitlab
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/krlsdu" rel="nofollow">
-                    <i class="fab fa-twitter fa-2x">
-                        Words
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:krlsdu@gmail.com" rel="nofollow">
-                    <i class="far fa-envelope fa-2x">
-                        Email
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/carlos-eduardo-820a5625" rel="nofollow">
-                    <i class="fab fa-linkedin fa-2x">
-                        profile
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.codeschool.com/users/266394" rel="nofollow">
-                    <i class="fas fa-graduation-cap fa-2x">
-                        knowledge
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/krlsdu/" rel="nofollow">
-                    <i class="fab fa-twitch fa-2x">
-                        Twicht
-                    </i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
+<nav class="nav nav-pills nav-fill">
+    {% for item in site.data.navbar %}
+    <a class="nav-link" href="{{item.link}}"></a>
+    <i class="{{item.icon}} fa-2x">
+        {{ item.name }}
+    </i>
+    {% endfor %}
+</nav>

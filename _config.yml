@@ -15,3 +15,7 @@ plugins:
 exclude: [vendor, Gemfile, Guardfile, README, bower]
 plugins:
   - jekyll-redirect-from
+
+sass:
+  sass_dir: assets/css  
+  style: compressed
