@@ -1,18 +1,18 @@
 - name: Github
   link: https://github.com/krlsdu
-  icon: fab fa-github
+  icon: code-square
 - name: Gitlab
   link: https://gitlab.com/krlsdu
-  icon: fab fa-gitlab
+  icon: code-square
 - name: Words
   link: https://twitter.com/krlsdu
-  icon: fab fa-twitter
+  icon: chat-dots
 - name: Email
   link: krlsdu@gmail.com
-  icon: fas fa-envelope
+  icon: envelope
 - name: Profile
   link: https://www.linkedin.com/in/carlos-eduardo-820a5625
-  icon: fab fa-linkedin
+  icon: hammer
 - name: Twitch
   link: https://www.twitch.tv/krlsdu/
-  icon: fab fa-twitch
+  icon: collection-play

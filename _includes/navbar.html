@@ -1,8 +1,12 @@
 <nav class="nav nav-pills nav-fill">
     {% for item in site.data.navbar %}
-    <a class="nav-link" href="{{item.link}}"></a>
-    <i class="{{item.icon}} fa-2x">
+    <a class="text-primary nav-link" href="{{item.link}}">
+
+        <svg class="bi" width="32" height="32" fill="currentColor">
+            <use xlink:href="assets/css/bootstrap/bootstrap-icons-1.1.0/bootstrap-icons.svg#{{item.icon}}" />
+        </svg>
         {{ item.name }}
-    </i>
+
+    </a>
     {% endfor %}
 </nav>
