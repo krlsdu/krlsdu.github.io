@@ -1,3 +1,7 @@
+webrick:
+  headers:
+    Content-Security-Policy: default-src https:
+
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
