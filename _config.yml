@@ -1,7 +1,3 @@
-webrick:
-  headers:
-    Content-Security-Policy: default-src https:
-
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
@@ -16,6 +12,9 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
  - jekyll-sitemap
+ - jekyll-redirect-from
 exclude: [vendor, Gemfile, Guardfile, README, bower]
-plugins:
-  - jekyll-redirect-from
+
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'self'
