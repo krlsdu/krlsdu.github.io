@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Professional page from krlsdu
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://krlsdu.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: krlsdu
+github_username:  krlsdu
 
 # Build settings
 markdown: kramdown
@@ -17,4 +17,5 @@ exclude: [vendor, Gemfile, Guardfile, README, bower]
 
 webrick:
   headers:
-    Content-Security-Policy: "default-src 'self' https:"
+    Content-Security-Policy: " default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline' "
+    Strict-Transport-Security: max-age=86400; includeSubDomains
