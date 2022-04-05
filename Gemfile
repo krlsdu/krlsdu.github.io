@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'yajl-ruby','~> 1.3.1 '
+gem 'yajl-ruby','~> 1.4.2'
 group :development do
   gem 'jekyll', '>= 3.8.6'
   gem 'jekyll-redirect-from'

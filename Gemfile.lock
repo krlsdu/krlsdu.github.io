@@ -119,7 +119,7 @@ GEM
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     unicode-display_width (1.7.0)
-    yajl-ruby (1.3.1)
+    yajl-ruby (1.4.2)
     yell (2.2.2)
 
 PLATFORMS
@@ -136,7 +136,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 0.8.1)
   rake
   therubyracer
-  yajl-ruby (~> 1.3.1)
+  yajl-ruby (~> 1.4.2)
 
 BUNDLED WITH
    2.2.21
